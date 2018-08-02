@@ -1,0 +1,113 @@
+@font-face {
+  font-family: 'nexa_boldregular';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../fonts/nexa_boldfree_macroman/Nexa_Free_Bold-webfont.eot');
+  src: url('../fonts/nexa_boldfree_macroman/Nexa_Free_Bold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/nexa_boldfree_macroman/Nexa_Free_Bold-webfont.woff2') format('woff2'), url('../fonts/nexa_boldfree_macroman/Nexa_Free_Bold-webfont.woff') format('woff'), url('../fonts/nexa_boldfree_macroman/Nexa_Free_Bold-webfont.ttf') format('truetype'), url('../fonts/nexa_boldfree_macroman/Nexa_Free_Bold-webfont.svg#nexa_boldregular') format('svg');
+}
+body{
+  font-family: 'nexa_boldregular', sans-serif;
+}
+#morphing{
+  position: absolute;
+  right: 15%;
+  top: -15%;
+  z-index: 1;
+}
+section{
+  position: relative;
+  z-index: 2;
+}
+.container {
+margin: 3%;
+}
+.d-flex{
+  display: flex;
+}
+.justify-between{
+  justify-content: space-between;
+}
+.btn{
+  padding: 15px 50px;
+  background: none;
+  border: none;
+}
+.btn-primary{
+  background: #f95079;
+  color: #ffffff;
+}
+.btn-active{
+  border: 1px solid #41424e;
+}
+.content{
+  margin: 70px 100px;
+}
+h1{
+  font-size: 90px;
+}
+h3{
+  font-size: 1.875rem;
+}
+.text-uppercase{
+  text-transform: uppercase;
+}
+.main-text{
+  width: 40%;
+}
+.main-img{
+  width: 60%;
+}
+.main-img img{
+  max-width: 100%;
+}
+
+
+
+
+
+
+#intro {
+  height: 100vh;
+  width: 70%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+#logo {
+  height: 152px;
+  width: 309px;
+  margin: 20px auto 40px auto;
+  position: relative;
+}
+#intro #ihtLogo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 100%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+}
+#intro #ihtText {
+  width: 100%;
+  position: absolute;
+  bottom: 0%;
+  width: 70%;
+  left: 50%;
+  transform: translate(-50%, 160%);
+}
+.buttons {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  list-style: none;
+  margin: 0;
+  padding:0;
+  right: 20px;
+}
+.button {
+  float: left;
+  margin-right: 10px;
+  padding: 10px 15px;
+  border: 1px #ebebeb solid;
+  text-decoration: none;
+  color: #222222
+}
